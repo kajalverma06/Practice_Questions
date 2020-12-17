@@ -47,7 +47,7 @@ print(items)
 #Q-9) Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
 lst = []
 while True:
-    x = int(input())
+    x = input()
     if len(x)==0:
         break
     lst.append(x.upper())
